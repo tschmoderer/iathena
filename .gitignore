@@ -14,6 +14,8 @@ lichess-bot/*
 
 .~lock.*
 
+build/*
+
 # WHITE LIST 
 !releases/*
 !releases/tournaments/*
