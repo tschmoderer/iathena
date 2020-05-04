@@ -7,3 +7,4 @@ file(GLOB iathena_SRC
 )
 
 add_executable(iathena ${iathena_SRC})
+set_property(TARGET iathena PROPERTY CXX_STANDARD 11)
