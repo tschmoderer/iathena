@@ -30,8 +30,10 @@ git clone https://github.com/tschmoderer/iathena.git
 IATHENA code is located in CPP_IATHENA folder. Run make to compile your own version of IATHENA. 
 
 ```
-cd src
-make
+mkdir build
+cd build
+cmake ../src
+cmake --build .
 ```
 
 If you want to deploy IATHENA on [Lichess](https://lichess.org/) please check the Lichess [API](https://lichess.org/api) documentation. And use [lichess-bot](https://github.com/careless25/lichess-bot) wrapper to deploy. 
