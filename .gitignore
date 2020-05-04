@@ -1,63 +1,7 @@
-# PERSONNAL BLACK LIST 
-.vscode/
-
-iathena*
-test
-morpion
-*stockfish
-.depend
-
-*.log
-.venv/
-
-lichess-bot/*
-
-.~lock.*
+# BLACK LIST
 
 build/*
 
-# WHITE LIST 
-!releases/*
-!releases/tournaments/*
-!releases/tournaments/pgn/*
-!releases/tournaments/ratings/*
-!.gitignore
-!iathena-prof.png
-!lichess-bot/LICENSE
-!lichess-bot/README.md
-!lichess-bot/play.bash
-!lichess-bot/requirements.txt
+# WHITE LIST
 
-## CPP BLACK LIST 
-# Prerequisites
-*.d
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
