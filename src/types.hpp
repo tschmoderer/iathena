@@ -5,7 +5,7 @@
 #include <inttypes.h>
 #include <iostream>
 #include <cassert>
-#include <unistd.h>
+// #include <unistd.h>
 #include "string.h"
 
 // ==========================================================================
@@ -21,7 +21,7 @@ typedef uint64_t board_key_t;
 
 /* general caracteristics */
 #define NAME    "iathena"
-#define VERSION "5.2.0"
+#define VERSION "0.0.0"
 #define AUTHOR  "TIMOTHEE SCHMODERER"
 
 /* game caracteristics */ 
