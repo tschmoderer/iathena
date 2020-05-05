@@ -5,13 +5,8 @@
 #include <inttypes.h>
 #include <iostream>
 #include <cassert>
-// #include <unistd.h>
+#include <unistd.h>
 #include "string.h"
-
-#if defined(_WIN64) && defined(_MSC_VER) // No Makefile used
-  #include <intrin.h> // Microsoft header for _BitScanForward64()
-  #define IS_64BIT
-#endif
 
 // ==========================================================================
 // Section 0. General definitions and types 
