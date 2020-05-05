@@ -9,12 +9,12 @@ matrix:
     include:
         - os: linux
           compiler: gcc
-#          addons:
-#              apt:
-#                  sources: ['ubuntu-toolchain-r-test']
-#                  packages: ['g++-8', 'gcc-8', 'cmake']
-#          env:
-#              - 
+          addons:
+              apt:
+                  sources: ['ubuntu-toolchain-r-test']
+                  packages: ['g++-8', 'gcc-8', 'cmake']
+          env:
+              - 
 
 branches:
     only:
