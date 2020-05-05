@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.5)
 project(iathena VERSION 0.0)
 
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
 if (MSVC)
     add_compile_options(/W4)
 else()
@@ -11,7 +14,6 @@ file(GLOB iathena_SRC
     "*.hpp"
     "*.cpp"
 )
-
 
 add_executable(iathena ${iathena_SRC})
 
