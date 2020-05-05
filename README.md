@@ -19,6 +19,20 @@
 
 IATHENA is a chess engine built in C++ using the UCI protocol. IATHENA is deployed on [Lichess](https://lichess.org/@/iathena). If online, please feel free to drop a challenge.
 
+## IATHENA concept
+
+My purposes are: 
+
+1. Being able to play a game of standart chess, a long term goal is to play variant such as Chess960,
+2. Have an evaluation functions based on NN, 
+3. Use a probabilistic Win/Draw/Loss metric, 
+4. Explore game tree with NN. 
+
+## Developement Stage
+
+1. Create light board representation, 
+2. Fast move generation.
+
 ## Getting Started
 
 You are welcome to use IATHENA for your own personnal projects, to clone the repo : 
@@ -43,6 +57,13 @@ You can deploy IATHENA in any chess server you like, please let the author know 
 ### Documentation
 
 The project is fully documented with [doxygen](http://www.doxygen.nl/) and is available at [https://tschmoderer.github.io/iathena/](https://tschmoderer.github.io/iathena/).
+
+```
+cd docs
+doxygen Doxyfile
+```
+
+And display html/index.html .
 
 ### Ratings
 
