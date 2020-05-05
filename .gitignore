@@ -1,6 +1,7 @@
 # BLACK LIST
 
 build/*
+docs/html/*
 
 # WHITE LIST
 
