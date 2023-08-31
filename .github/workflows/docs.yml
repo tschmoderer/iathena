@@ -38,13 +38,13 @@ jobs:
 
       - name: Dependencies
         run: |
-          sudo apt-get install doxygen \
-          mkdir build \
+          sudo apt-get install doxygen
+          mkdir build
           cd build
 
       - name: Generate Doc
         run: |
-          cmake .. \
+          cmake ..
           make docs 
       
       - name: Compact Doc
