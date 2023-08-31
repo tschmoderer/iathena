@@ -13,6 +13,8 @@
 &nbsp;
 [![Build status](https://ci.appveyor.com/api/projects/status/etev4kfqsf9l4s2s/branch/master?svg=true)](https://ci.appveyor.com/project/tschmoderer/iathena/branch/master)
 &nbsp; 
+[![docs](https://github.com/tschmoderer/iathena/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/tschmoderer/iathena/actions/workflows/docs.yml)
+&nbsp; 
 [![license](https://img.shields.io/github/license/tschmoderer/iathena.svg?color=blue)](https://github.com/tschmoderer/iathena/blob/master/LICENSE)
 
 </div>
