@@ -35,8 +35,11 @@ jobs:
         
       - name: Setup Pages
         uses: actions/configure-pages@v3
+
+      - name: Generate Doc
+        run: cd docs && doxygen Doxyfile
       
-      - name: test
+      - name: Compact Doc
         run: tar --dereference --hard-dereference --directory docs/ -cvf "$RUNNER_TEMP/artifact.tar" --exclude=.git .
       
       - name: Upload artifact
