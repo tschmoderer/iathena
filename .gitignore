@@ -2,7 +2,9 @@
 
 build/*
 docs/html/*
+.vscode/*
 
 # WHITE LIST
 
 
+docs/doxyfile.conf
