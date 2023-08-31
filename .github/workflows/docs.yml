@@ -40,10 +40,10 @@ jobs:
         run: |
           sudo apt-get install doxygen
           mkdir build
-          cd build
 
       - name: Generate Doc
         run: |
+          cd build
           cmake ..
           make docs 
       
