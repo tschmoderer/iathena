@@ -37,10 +37,13 @@ jobs:
         uses: actions/configure-pages@v3
 
       - name: Dependencies
-        run: sudo apt-get install doxygen
+        run: sudo apt-get install doxygen |
+             mkdir build |
+             cd build
 
       - name: Generate Doc
-        run: cd docs && doxygen Doxyfile
+        run: cmake .. |
+             make docs
       
       - name: Compact Doc
         run: tar --dereference --hard-dereference --directory docs/ -cvf "$RUNNER_TEMP/artifact.tar" --exclude=.git .
