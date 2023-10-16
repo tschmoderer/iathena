@@ -2,16 +2,12 @@
     <br />
     <img src="./docs/logo_iathena_big.png" alt="Iathena Logo" width="200"/>
     <h1>IATHENA</h1>
-    <h3>Free Open Source UCI Chess Engine</h3>
+    <h3>Free Open Source C++ UCI Chess Engine</h3>
 </div>
 
 <div id="badges" align="center">
 
 [![gitHub release](https://img.shields.io/github/release/tschmoderer/iathena.svg)](https://github.com/tschmoderer/iathena/releases)
-&nbsp; 
-[![Build Status](https://travis-ci.org/tschmoderer/iathena.svg?branch=master)](https://travis-ci.org/tschmoderer/iathena)
-&nbsp;
-[![Build status](https://ci.appveyor.com/api/projects/status/etev4kfqsf9l4s2s/branch/master?svg=true)](https://ci.appveyor.com/project/tschmoderer/iathena/branch/master)
 &nbsp; 
 [![docs](https://github.com/tschmoderer/iathena/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/tschmoderer/iathena/actions/workflows/docs.yml)
 &nbsp; 

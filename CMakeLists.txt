@@ -16,8 +16,9 @@ include(CTest)
 
 # Execute subdirectories
 add_subdirectory(${DOCS})
+add_subdirectory(${INC})
 add_subdirectory(${SRC})
-
+add_subdirectory(${TST})
 
 #cmake_minimum_required(VERSION 3.5)
 #project(iathena VERSION 0.0)

@@ -1,0 +1,8 @@
+#ifndef AUTHOR_HPP
+#define AUTHOR_HPP
+
+#define NAME    "@CMAKE_PROJECT_NAME@"
+#define VERSION "@CMAKE_LIB_VERSION@"
+#define AUTHOR  "@AUTHOR@"
+
+#endif

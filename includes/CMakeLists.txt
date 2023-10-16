@@ -1,0 +1,1 @@
+configure_file(${INC}/author.hpp.in ${INC}/author.hpp @ONLY)
